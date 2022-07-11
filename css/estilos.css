@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedor{
+    min-width: 500px;
+    width: 90%;
+    margin: 0px auto;
+}
+h1{
+    text-align: center;
+}
+.max-container{
+    width: 50%;
+    height: 400px;
+    background-color: #A0D0EA;
+    margin: 0px auto;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 2.5px 1px #dddd;
+}
+.mostrarResultado{
+    width: 90%;
+    height: 60px;
+    background-color: #ccc;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: right;
+    font-size:28px;
+    padding-top: 26px;
+    padding-right: 20px;
+    overflow: auto;
+    border: 2.5px solid aliceblue;
+ 
+}
+
+.miniContenedor{
+    width: 65%;
+    height: 180px;
+    margin: 0px auto;   
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    gap: 10px;
+    
+}
+button{
+    width: 50px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 2px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: gray;
+}
